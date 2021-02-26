@@ -349,7 +349,7 @@
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .map {
     padding-top: 3rem;
-    height: 125vh;
+    height: 110vh;
     overflow: hidden;
     border-radius: 2rem;
   }
@@ -386,11 +386,12 @@
     display: flex;
     align-items: center;
     width: 5vh;
-    color: aqua;
+    color: white;
   }
 
   .pin-icon {
     font-size: 3rem;
+    color: aqua;
   }
 
   .pin-text {
@@ -462,9 +463,10 @@
   #maptableweb {
     width: 15rem;
     border-radius: 10px;
-    margin-left: 30%;
+    margin-left: 28%;
     z-index: 1000;
     overflow: hidden;
+    margin-top: -2rem;
   }
   .google-map {
     width: 95%;
