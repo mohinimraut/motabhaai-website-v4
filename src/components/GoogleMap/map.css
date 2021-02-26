@@ -1,0 +1,506 @@
+ .map-h2 {
+  text-transform: uppercase;
+  font-size: 1rem;
+  padding: 20px;
+  padding-left: 10px;
+  text-align: center;
+}
+.map {
+  height: 110vh;
+}
+
+.google-map {
+  width: 95%;
+  height: 50vh;
+  margin-left: 2.4rem;
+}
+
+#motabahiheadtitle {
+  padding-left: 5%;
+}
+.pin {
+  display: flex;
+  align-items: center;
+  width: 6vh;
+  color: white;
+}
+
+.pin-icon {
+  font-size: 5rem;
+  color: aqua;
+}
+
+.pin-text {
+  font-size: 10rem;
+  color: white;
+} 
+
+/* @media screen and (min-width: 799px) {
+  .google-map {
+    height: 80vh;
+  }
+
+  .map-h2 {
+    font-size: 1.3rem;
+    font-weight: 400;
+  }
+
+  .pin {
+    width: 5vw;
+  }
+
+  .pin-icon {
+    font-size: 2vw;
+  }
+  #mapmotabhaai {
+    font-size: 50px;
+    font-weight: bold;
+  }
+  #mapmotabhaaisecond {
+    font-size: 35px;
+    font-weight: bold;
+  }
+  #mapmotabhaaithird {
+    font-size: 20px;
+    font-weight: bold;
+  }
+} */
+
+/* ========================Media Query====================================== */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .pin-icon {
+    font-size: 5rem;
+  }
+
+  .pin-text {
+    color: white;
+    font-size: 3em;
+  }
+  .tdmodulehead {
+    font: normal normal normal 16px Roboto;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+    margin-left: 1rem;
+  }
+  .tdmodule {
+    font: normal normal normal 16px Roboto;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 0.2;
+    margin-left: 5rem;
+  }
+  #maptableweb {
+    display: none;
+  }
+
+  #maptablemob {
+    background-color: #556577;
+    width: 22rem;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-top: 4%;
+    overflow: hidden;
+    font-size: 25px;
+    border: hidden;
+  }
+  .map {
+    height: 90vh;
+    overflow: hidden;
+    border-radius: 2rem;
+  }
+  .google-map {
+    width: 93%;
+    height: 35vh;
+    margin-left: 0.8rem;
+  }
+  #mapmotabhaai {
+    font: normal normal bold 50px Roboto;
+    letter-spacing: 0px;
+    color: #2c3d63;
+    opacity: 1;
+  }
+  #mapmotabhaaisecond {
+    font: normal normal bold 37px Roboto;
+    letter-spacing: 0px;
+    color: #2c3d63;
+    opacity: 1;
+  }
+  #mapmotabhaaithird {
+    font: normal normal bold 19px Roboto;
+    letter-spacing: 0px;
+    color: #2c3d63;
+    opacity: 1;
+  }
+  .pin {
+    display: flex;
+    align-items: center;
+    width: 5vh;
+    color:white;
+  }
+
+  .pin-icon {
+    font-size: 3rem;
+    color: aqua;
+  }
+
+  .pin-text {
+    font-size: 1.5em;
+  }
+}
+
+/* @media (min-width: 280px) and (max-width: 349.98px) {
+  #maptablemob {
+    background-color: #556577;
+    width: 30rem;
+    border-radius: 15px;
+    margin-left: 5%;
+    margin-top: 4%;
+    overflow: hidden;
+    font-size: 25px;
+    height: 30rem;
+    border: hidden;
+  }
+  #mapmotabhaai {
+    font: normal normal bold 35px Roboto;
+    letter-spacing: 0px;
+    color: #2c3d63;
+    opacity: 1;
+    padding-top: 2rem;
+  }
+
+  #mapmotabhaaisecond {
+    font: normal normal bold 25px Roboto;
+    letter-spacing: 0px;
+    color: #2c3d63;
+    opacity: 1;
+  }
+}
+@media (min-width: 350px) and (max-width: 424.98px) {
+  #maptablemob {
+    width: 21rem;
+  }
+
+  .map {
+    padding-top: 2rem;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 574.98px) {
+  .map {
+    padding-top: 2rem;
+  }
+} */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .tdmodulehead {
+    font: normal normal normal 16px Roboto;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+    margin-left: 1rem;
+  }
+  .tdmodule {
+    font: normal normal normal 16px Roboto;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 0.2;
+    margin-left: 5rem;
+  }
+  #maptableweb {
+    display: none;
+  }
+  #maptablemob {
+    background-color: #556577;
+    width: 16rem;
+    border-radius: 10px;
+    margin-left: 12%;
+    margin-top: 4%;
+    overflow: hidden;
+    font-size: 25px;
+    border: hidden;
+  }
+  .map {
+    height: 90vh;
+    overflow: hidden;
+    border-radius: 2rem;
+  }
+  .google-map {
+    width: 93%;
+    height: 50vh;
+    margin-left: 0.8rem;
+  }
+  #mapmotabhaai {
+    font: normal normal bold 48px Roboto;
+    letter-spacing: 0px;
+    color: #2c3d63;
+    opacity: 1;
+  }
+  #mapmotabhaaisecond {
+    font: normal normal bold 34px Roboto;
+    letter-spacing: 0px;
+    color: #2c3d63;
+    opacity: 1;
+  }
+  #mapmotabhaaithird {
+    font: normal normal bold 19px Roboto;
+    letter-spacing: 0px;
+    color: #2c3d63;
+    opacity: 1;
+  }
+  .pin {
+    display: flex;
+    align-items: center;
+    width: 5vh;
+    color:white;
+  }
+
+  .pin-icon {
+    font-size: 3rem;
+    color: aqua;
+  }
+
+  .pin-text {
+    font-size: 1.5em;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #mwebsam {
+    font: normal normal bold 40px Roboto;
+    letter-spacing: 0px;
+    color: #fef8e6;
+    opacity: 1;
+  }
+  .tdmodulehead {
+    font: normal normal normal 16px Roboto;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+    margin-left: 1rem;
+  }
+  .tdmodule {
+    font: normal normal normal 16px Roboto;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 0.2;
+    margin-left: 5rem;
+  }
+
+  #maptableweb {
+    display: none;
+  }
+
+  #maptablemob {
+    background-color: #556577;
+    width: 41rem;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-top: 4%;
+    overflow: hidden;
+    font-size: 25px;
+    border: hidden;
+  }
+  .map {
+    height: 110vh;
+    overflow: hidden;
+    border-radius: 2rem;
+  }
+  .google-map {
+    width: 93%;
+    height: 50vh;
+    margin-left: 1.6rem;
+  }
+  #mapmotabhaai {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  #mapmotabhaaisecond {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  #mapmotabhaaithird {
+    font-size: 17px;
+    font-weight: bold;
+  }
+  .pin {
+    display: flex;
+    align-items: center;
+    width: 5vh;
+    color: white;
+  }
+
+  .pin-icon {
+    font-size: 3rem;
+    color:aqua;
+  }
+
+  .pin-text {
+    font-size: 1.5em;
+    color: white;
+  }
+}
+
+/*  Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .map {
+    padding-top: 3rem;
+    height: 125vh;
+    overflow: hidden;
+    border-radius: 2rem;
+  }
+  .google-map {
+    width: 93%;
+    height: 80vh;
+    margin-left: 2.3rem;
+    border-radius: 2rem;
+  }
+  .tdwebrow {
+    height: 1.5rem;
+  }
+  .tdf {
+    padding-left: 2rem;
+    font-size: 13px;
+  }
+  .tds {
+    font-size: 13px;
+  }
+  #maptableweb {
+    width: 13rem;
+    margin-top: -7rem;
+    border-radius: 10px;
+    margin-left: 23%;
+    overflow: hidden;
+    height: 20rem;
+    font-size: 22px;
+    /* padding-left: 7rem; */
+  }
+  #maptablemob {
+    display: none;
+  }
+  .pin {
+    display: flex;
+    align-items: center;
+    width: 5vh;
+    color: aqua;
+  }
+
+  .pin-icon {
+    font-size: 3rem;
+  }
+
+  .pin-text {
+    color: white;
+    font-size: 3em;
+  }
+  #mapmotabhaai {
+    font: normal normal bold 50px/61px Roboto;
+    letter-spacing: 0px;
+    color: #2c3d63;
+    opacity: 1;
+  }
+  #mapmotabhaaisecond {
+    font: normal normal bold 37px Roboto;
+    letter-spacing: 0px;
+    color: #2c3d63;
+    opacity: 1;
+  }
+  #mapmotabhaaithird {
+    font: normal normal bold 22px Roboto;
+    letter-spacing: 0px;
+    color: #2c3d63;
+    opacity: 1;
+  }
+}
+
+/*  Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .pin {
+  display: flex;
+  align-items: center;
+  width: 6vh;
+  color: white;
+}
+
+.pin-icon {
+  font-size: 5rem;
+  color: aqua;
+}
+
+.pin-text {
+  font-size: 10rem;
+  color: white;
+} */
+  .pin-icon {
+    font-size: 5rem;
+  }
+
+  .pin-text {
+    color: white;
+    font-size: 3em;
+  }
+  .tdwebrow {
+    height: 1.5rem;
+  }
+  .tdf {
+    padding-left: 3rem;
+    font-size: 13px;
+  }
+  .tds {
+    font-size: 13px;
+  }
+  .map {
+    border-radius: 2rem;
+    padding-top: 3rem;
+    height: 112vh;
+    overflow: hidden;
+  }
+  #maptableweb {
+    width: 15rem;
+    border-radius: 10px;
+    margin-left: 30%;
+    z-index: 1000;
+    overflow: hidden;
+  }
+  .google-map {
+    width: 95%;
+    height: 75vh;
+    margin-left: 2.4rem;
+  }
+  #maptablemob {
+    display: none;
+  }
+  #mapmotabhaai {
+    font: normal normal bold 50px/61px Roboto;
+    letter-spacing: 0px;
+    color: #2c3d63;
+    opacity: 1;
+  }
+  #mapmotabhaaisecond {
+    font: normal normal bold 37px Roboto;
+    letter-spacing: 0px;
+    color: #2c3d63;
+    opacity: 1;
+  }
+  #mapmotabhaaithird {
+    font: normal normal bold 22px Roboto;
+    letter-spacing: 0px;
+    color: #2c3d63;
+    opacity: 1;
+  }
+}
+
+@media (min-width: 2560.98px) {
+  .pin-icon {
+    font-size: 5rem;
+  }
+
+  .pin-text {
+    color: white;
+    font-size: 3em;
+  }
+}
